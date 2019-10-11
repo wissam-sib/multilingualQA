@@ -4,13 +4,13 @@ This repository contains ressources for question answering in multiple languages
 
 ## Data
 
-In the data folder, there are 9 monolingual or cross-lingual datasets, based on SQuAD v1.1 dev set (https://rajpurkar.github.io/SQuAD-explorer/explore/1.1/dev/) and its translation on french and japanese from https://github.com/AkariAsai/extractive_rc_by_runtime_mt . In the SQuAD dataset, the input is a question-paragraph pair in English and the output is the location of the answer in the paragraph. The 9 datasets correspond to the 9 combinations where the paragraph is in one language (among French, Japanese and English) and the question is in another language (among the same three possibilities).
+In the data folder, there are 9 monolingual or cross-lingual datasets, based on SQuAD v1.1 dev set (https://rajpurkar.github.io/SQuAD-explorer/explore/1.1/dev/) and its translations on French and Japanese from https://github.com/AkariAsai/extractive_rc_by_runtime_mt . In the SQuAD dataset, the input is a question-paragraph pair in English and the output is the location of the answer in the paragraph. The 9 datasets correspond to the 9 combinations where the paragraph is in one language (among French, Japanese and English) and the question is in another language (among the same three possibilities).
 
 If you use these datasets, please cite this paper : https://arxiv.org/abs/1910.04659 and the references mentioned above. 
 
 ## Results
 
-In the paper "Multilingual Question Answering from Formatted Text applied to Conversational Agents", we trained multilingual BERT (https://github.com/google-research/bert) on the English training SQuAD v2.0 and we tested it on the 9 datasets mentioned above. 
+In our paper "Multilingual Question Answering from Formatted Text applied to Conversational Agents", we trained multilingual BERT (https://github.com/google-research/bert) on the English training SQuAD v2.0 and we tested it on the 9 datasets mentioned above. 
 
 We compare the performances of mBERT on the monolingual French and Japanese test sets on previously published baseline on these datasets (https://github.com/AkariAsai/extractive_rc_by_runtime_mt): 
 
