@@ -47,11 +47,20 @@ We also discuss the impressive results of mBert on cross-lingual datasets :
 
 <table>
   <tr>
-    <td></td>
+    <td colspan="2">Question</td>
     <td colspan="2">En</td>
     <td colspan="2">Fr</td>
     <td colspan="2">Jap</td>
   </tr>
+  <tr>
+    <td colspan="2"></td>
+    <td>F1</td>
+    <td>EM</td>
+    <td>F1</td>
+    <td>EM</td>
+    <td>F1</td>
+    <td>EM</td>
+  </tr>	
   <tr>
     <td></td>
     <td>En</td>
