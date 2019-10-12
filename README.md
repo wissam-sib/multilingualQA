@@ -12,7 +12,7 @@ If you use these datasets, please cite this paper : https://arxiv.org/abs/1910.0
 
 In our paper "Multilingual Question Answering from Formatted Text applied to Conversational Agents", we trained multilingual BERT (https://github.com/google-research/bert) on the English training SQuAD v2.0 and we tested it on the 9 datasets mentioned above. 
 
-We compare the performances of mBERT on the monolingual French and Japanese test sets on previously published baseline on these datasets (https://github.com/AkariAsai/extractive_rc_by_runtime_mt): 
+We compare the performances of mBERT on the monolingual French and Japanese test sets with a previously published baseline (https://github.com/AkariAsai/extractive_rc_by_runtime_mt): 
 
 <table>
   <tr>
